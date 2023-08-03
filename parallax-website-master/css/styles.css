@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-size: 1em;
+    font-family: "Raleway","Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 2em;
+    /* color: #666; */
+    color:#fff;
+}
+
+.img1,.img2,.img3,.img4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: "scroll"; -> default -normal flow */
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.img1{
+    background-image: url("../img/anna-pelzer-IGfIGP5ONV0-unsplash\ \(1\).jpg");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("../img/brooke-lark-M4E7X3z80PQ-unsplash\ \(2\).jpg");
+    min-height: 60%;
+}
+
+.img3{
+    background-image: url("../img/cristiano-pinto-2lWGQ02DGL8-unsplash\ \(1\).jpg");
+    min-height: 60%;
+}
+
+.img4{
+    background-image: url("../img/dan-gold-4_jhDO54BYg-unsplash\ \(1\).jpg");
+    min-height:60%;
+}
+
+.text{
+    text-align: center;
+    position:relative;
+    top: 10em;
+}
+
+.text h1
+{
+    text-transform: uppercase;
+}
+
+div.border{
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    padding: 1em;
+    margin: 0 10em 0 10em;
+}
+
+section{
+    background-color: #fecc53;
+    color: rgba(0, 0, 0, 0.685);
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.829);
+    color:white;
+    padding:.7em;
+    border-radius: 3em;
+}
+
+.section-text{
+    text-align: center;
+}
+
+.sponsor h3{
+    margin-top: 1em;
+    color:#000;
+    text-align: center;
+}
+
+.sponsor-images img{
+    width:10em; height:10em;
+    margin: 0 0 0 3em;
+    max-width: 100%; 
+    /* max-height: 5vh;*/ 
+}
+
+
+/* === MEDIA QUERIES */
+@media (max-width:567px) and (min-width:300px) {
+    .img1,.img2,.img3,.img4{
+        max-width: 100%;
+        background-attachment: scroll;
+    }
+
+    div.border{
+        margin:0;
+    }
+
+    .sponsor-images img{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
